@@ -2,8 +2,8 @@ const template = require('babel-template');
 
 const drupalBehavior = template('Drupal.behaviors.myBehavior = {attach: function (context, settings) {\nBODY;\n}};');
 
-export default function (babel) {
-	var t = babel.types;
+module.exports = function (babel) {
+	const t = babel.types;
 
 	return {
 		visitor: {
@@ -11,7 +11,7 @@ export default function (babel) {
 				exit: function (path) {
 					if (!this.drupalBehavior) {
 						this.drupalBehavior = true;
-						var addBehavior = drupalBehavior({
+						const addBehavior = drupalBehavior({
 							BODY: path.node.body
 						});
 						addBehavior[1].expression.callee.body.directives = path.node.directives;
