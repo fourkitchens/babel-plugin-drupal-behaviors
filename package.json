@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-drupal-behaviors",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Babel Plugin to wrap file in a Drupal behavior",
   "main": "index.js",
   "scripts": {
