@@ -1,0 +1,24 @@
+{
+  "name": "babel-plugin-drupal-behaviors",
+  "version": "0.0.1",
+  "description": "Babel Plugin to wrap file in a Drupal behavior",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fourkitchens/babel-plugin-drupal-behaviors.git"
+  },
+  "keywords": [
+    "babel",
+    "plugin",
+    "drupal"
+  ],
+  "author": "Evan Willhite <evan@fourkitchens.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fourkitchens/babel-plugin-drupal-behaviors/issues"
+  },
+  "homepage": "https://github.com/fourkitchens/babel-plugin-drupal-behaviors#readme"
+}
