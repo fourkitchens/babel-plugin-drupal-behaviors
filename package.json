@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/fourkitchens/babel-plugin-drupal-behaviors/issues"
   },
-  "homepage": "https://github.com/fourkitchens/babel-plugin-drupal-behaviors#readme"
+  "homepage": "https://github.com/fourkitchens/babel-plugin-drupal-behaviors#readme",
+  "dependencies": {
+    "babel-template": "^6.26.0"
+  }
 }
