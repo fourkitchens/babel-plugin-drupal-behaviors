@@ -1,4 +1,4 @@
-import template from 'babel-template';
+const template = require('babel-template');
 
 const drupalBehavior = template('Drupal.behaviors.myBehavior = {attach: function (context, settings) {\nBODY;\n}};');
 
