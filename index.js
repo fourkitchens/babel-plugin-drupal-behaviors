@@ -6,6 +6,7 @@ module.exports = function (babel) {
 	const t = babel.types;
 
 	return {
+    inherits: require("babel-plugin-transform-strict-mode"),
 		visitor: {
 			Program: {
 				exit: function (path) {
